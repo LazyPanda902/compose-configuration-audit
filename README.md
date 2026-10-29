@@ -54,3 +54,7 @@ Pull requests should keep the project deterministic, local-first, and easy to au
 ## License
 
 MIT. See `LICENSE`.
+
+### Strict mode for CI
+
+Use the optional --strict flag before the input file to fail when a medium-severity finding occurs, in addition to high-severity findings. Default behavior and JSON output are unchanged. The option never modifies the target.
